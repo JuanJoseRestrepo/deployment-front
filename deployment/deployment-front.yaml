@@ -23,7 +23,7 @@ spec:
         env:
           - name: API_URL
             value: "http://$(ICESI_HEALTH_BACKEND_SERVICE_HOST):8089"
-            
+        imagePullPolicy: Always    
 
 
 ---
